@@ -9,7 +9,7 @@ function App() {
     <>
     <Navbar/><div className='container mt-5'>
       
-      <BrowserRouter>
+      <BrowserRouter basename='/crud-operations'>
       
        <Routes>
        
