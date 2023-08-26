@@ -7,10 +7,10 @@ import Update from './components/Update';
 function App() {
   return (
     <>
-    <Navbar/><div className='container mt-5'>
+    <div className='container mt-5'>
       
       <BrowserRouter basename='/crud-operations'>
-      
+      <Navbar/>
        <Routes>
        
         <Route exact path="/" element={<Create/>}></Route>
